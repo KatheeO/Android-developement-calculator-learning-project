@@ -11,6 +11,15 @@
         android:id="@+id/fragmentContainerView"
         android:name="com.example.beginnercalculator.Keyboard"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="0dp"
         android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnEq"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="="
+        android:textSize="60sp"
+        android:textStyle="bold" />
 </LinearLayout>
